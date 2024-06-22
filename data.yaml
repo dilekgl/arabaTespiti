@@ -1,0 +1,14 @@
+path: C:\Users\dilek\PycharmProjects\bitirmeModel\engelModel
+train: ./dataset/train/images
+val: ./dataset/valid/images
+test: ./dataset/test/images
+
+nc: 3
+names: ['bus', 'car', 'construction']
+
+roboflow:
+  workspace: hs-l-rs9yf
+  project: test-gwid5
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hs-l-rs9yf/test-gwid5/dataset/10
